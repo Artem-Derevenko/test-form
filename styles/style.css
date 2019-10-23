@@ -1,0 +1,213 @@
+@font-face {
+    font-family: 'Heebo ExtraBold';
+    src: url(../fonts/Heebo/Heebo-ExtraBold.ttf); 
+}
+
+@font-face {
+    font-family: 'Open Sans Regular';
+    src: url(../fonts/Open_Sans/OpenSans-Regular.ttf); 
+}
+
+@font-face {
+    font-family: 'Open Sans SemiBold';
+    src: url(../fonts/Open_Sans/OpenSans-SemiBold.ttf); 
+}
+
+.page {
+    width: 100%;
+    min-width: 920px;
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/bg.png) repeat;
+}
+
+.form-wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: center; 
+    border-radius: 4px;	
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+.form {
+    width: 445px;
+    padding: 32px 30px 40px;
+
+}
+
+.img {
+    width: 475px;
+    background: url(../images/img-form.png) center;
+    background-size: cover;
+}
+
+.form-title {
+    color: #060508;	
+    font-family: 'Heebo ExtraBold';	
+    font-size: 26px;		
+    letter-spacing: 0.3px;	
+    line-height: 38px;	
+    text-align: center;
+}
+
+.label { 
+    color: #060508;	
+    font-family: "Open Sans Regular";	
+    font-size: 13px;	
+    letter-spacing: 0.3px;	
+    line-height: 20px;
+    margin-top: 24px;
+}
+
+.input {
+    width: 100%;
+    height: 38px;
+    font-family: "Open Sans Regular";	
+    color: #060508;	
+    font-size: 14px;	
+    font-weight: 600;	
+    letter-spacing: 0.3px;	
+    line-height: 20px;
+    background-color: #F7F7F7;	
+    box-shadow: inset 0 -1.5px 0 0 #060508;
+    margin-top: 10px;
+    padding: 0 10px;
+}
+
+.file-list .file-item:first-child {
+    margin-top: 40px;
+}
+
+.file-item {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.file-icon {
+    max-height: 100%; 
+    width: auto;
+}
+
+.file-name {
+    width: 100%;
+    padding: 0 20px;
+    color: #060508;	
+    font-family: "Open Sans Regular";	
+    font-size: 13px;	
+    letter-spacing: 0.3px;	
+    line-height: 20px;
+}
+
+.file-name.loaded {
+    font-family: "Open Sans SemiBold";	
+    font-size: 14px;	
+}
+
+.loading {
+    color: #EC6630;	
+    font-family: "Open Sans SemiBold";	
+    font-size: 13px;	
+    letter-spacing: 0.3px;	
+    line-height: 20px;	
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.progress {
+    height: 3px;	
+    width: 100%;	
+    background-color: #F7F7F7;
+    margin: 10px 0 0 20px;
+}
+
+.line {
+    width: 168.5px;
+    height: 100%;
+    background-color: #EC6630;
+}
+
+.drag-and-drop {
+    height: 139px;	
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+    border: 1px dashed #E3E3E3;	
+    background-color: #F7F7F7;
+    margin-top: 40px;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;	
+}
+
+.text {
+    width: 100%;
+    margin: 8px 0 2px 0;
+    text-align: center;
+    color: #060508;	
+    font-family: "Open Sans Regular";	
+    font-size: 13px;	
+    letter-spacing: 0.3px;	
+    line-height: 20px;
+}
+
+.text span {
+    font-family: "Open Sans SemiBold";
+    font-size: 14px;	 
+}
+
+.browse {
+	height: 20px;
+	width: 51px;
+	color: #0096E6;
+	font-family: "Open Sans SemiBold";
+	font-size: 14px;
+	letter-spacing: 0.3px;
+	line-height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.browse:hover {
+    text-decoration: underline;
+}
+
+.button {
+	height: 48px;
+	width: 100%;
+    background-color: #060508;
+    color: #FFFFFF;
+    font-family: 'Heebo ExtraBold';	
+    margin-top: 40px;
+    font-size: 14px;	
+    letter-spacing: 0.3px;
+    cursor: pointer;
+    transition: background-color ease-out .3s;
+}
+
+.button:hover {
+    background-color: rgb(39, 37, 37);
+}
